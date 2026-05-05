@@ -1,19 +1,13 @@
 {
-  "name": "telegram-bot",
+  "name": "whatsapp-offline-server",
   "version": "1.0.0",
-  "description": "Simple Telegram bot using node-telegram-bot-api",
+  "description": "Offline WhatsApp message sender using Baileys",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [
-    "telegram",
-    "bot",
-    "nodejs"
-  ],
-  "author": "",
-  "license": "ISC",
+  "author": "Yusuf Raja",
+  "license": "MIT",
   "dependencies": {
-    "node-telegram-bot-api": "^0.66.0"
-  }
-}
+    "@whiskeysockets/baileys": "^6.7.5
